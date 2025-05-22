@@ -19,6 +19,7 @@ while True:
 
     while continuar not in "SsNn":
         continuar = str(input("O valor inserido está incorreto! Digite S (Sim) ou N (Não): ")).strip()[0]
-        if continuar == "Nn":
+        if continuar in "Nn":
             break
+    
 print(dados)
